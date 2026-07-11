@@ -16,41 +16,45 @@ DEBUG_LOG = '/sdcard/Download/ytblive_debug.log'
 
 LIVE_CLASSES = [
 
-    {'type_id': 'guojizhongwen', 'type_name': '国际中文(亚洲/美洲)综合24小时高清直播'},
-    {'type_id': 'badukongjian', 'type_name': '八度空间华语新闻24小时高清直播'},
-    {'type_id': 'fenghuangweishi', 'type_name': '凤凰卫视资讯台24小时高清直播'},
-    {'type_id': 'xintangren', 'type_name': '新唐人亚太台24小时高清直播'},
-    {'type_id': 'taiwanplusnews', 'type_name': 'TaiwanPlusNews live'},
-    {'type_id': 'cna', 'type_name': 'CNA亚洲新闻台24小时高清直播'},
-    {'type_id': 'beritartm', 'type_name': 'Berita rtm live'},
-    {'type_id': 'astroawani', 'type_name': 'AstroAwani live'},
-    {'type_id': 'sanli_news', 'type_name': '三立新闻台24小时高清直播'},
-    {'type_id': 'sanli_inews', 'type_name': '三立iNEWS24小时高清直播'},
-    {'type_id': 'tvbs', 'type_name': 'TVBS新闻台24小时高清直播'},
-    {'type_id': 'minshi', 'type_name': '民视新闻台24小时高清直播'},
-    {'type_id': 'zhongtian', 'type_name': '中天新闻台24小时高清直播'},
-    {'type_id': 'zhongshi', 'type_name': '中视新闻台24小时高清直播'},
-    {'type_id': 'taishi', 'type_name': '台视新闻台24小时高清直播'},
-    {'type_id': 'huashi', 'type_name': '华视新闻台24小时高清直播'},
-    {'type_id': 'gongshi', 'type_name': '公视新闻台24小时高清直播'},
-    {'type_id': 'huanyu', 'type_name': '寰宇新闻台24小时高清直播'},
-    {'type_id': 'jingxinwen', 'type_name': '镜新闻台24小时高清直播'},
-    {'type_id': 'dongsen_news', 'type_name': '东森新闻台24小时高清直播'},
-    {'type_id': 'dongsen_caijing', 'type_name': '东森财经台24小时高清直播'},
-    {'type_id': 'feifan', 'type_name': '非凡新闻台24小时高清直播'},
-    {'type_id': 'nizhen', 'type_name': '倪珍播新聞24小时高清直播'},
-    {'type_id': 'cartoon', 'type_name': 'cartoon LIVE'},
-    {'type_id': '8world', 'type_name': '8world新闻24小时高清直播'},
-    {'type_id': 'live', 'type_name': '正在直播'},
-    {'type_id': 'news live', 'type_name': '新闻直播'},
-    {'type_id': 'music live', 'type_name': '音乐直播'},
-    {'type_id': 'lofi live', 'type_name': 'Lofi直播'},
-    {'type_id': 'space live', 'type_name': '太空直播'},
-    {'type_id': 'nature live', 'type_name': '自然直播'},
-    {'type_id': 'game live', 'type_name': '游戏直播'},
-    {'type_id': 'sports live', 'type_name': '体育直播'},
-    
+
+    {'type_id': 'guojizhongwen', 'type_name': '国际中文(亚洲/美洲)综合24小时高清直播', 'youtube_id': '@CCTV中文国际'},
+    {'type_id': 'badukongjian', 'type_name': '八度空间华语新闻24小时高清直播', 'youtube_id': '@87news'},
+    {'type_id': 'fenghuangweishi', 'type_name': '凤凰卫视资讯台24小时高清直播', 'youtube_id': '@PhoenixTVOfficial'},
+    {'type_id': 'xintangren', 'type_name': '新唐人亚太台24小时高清直播', 'youtube_id': '@NTGAPTV'},
+    {'type_id': 'taiwanplusnews', 'type_name': 'TaiwanPlusNews live', 'youtube_id': '@TaiwanPlusNews'},
+    {'type_id': 'cna', 'type_name': 'CNA亚洲新闻台24小时高清直播', 'youtube_id': '@CNAInsider'},
+    {'type_id': 'beritartm', 'type_name': 'Berita rtm live', 'youtube_id': '@beritartm1'},
+    {'type_id': 'astroawani', 'type_name': 'AstroAwani live', 'youtube_id': '@AstroAwaniOfficial'},
+    {'type_id': 'sanli_news', 'type_name': '三立新闻台24小时高清直播', 'youtube_id': '@SET_NEWS'},
+    {'type_id': 'sanli_inews', 'type_name': '三立iNEWS24小时高清直播', 'youtube_id': '@setinews'},
+    {'type_id': 'tvbs', 'type_name': 'TVBS新闻台24小时高清直播', 'youtube_id': '@TVBSNEWS01'},
+    {'type_id': 'minshi', 'type_name': '民视新闻台24小时高清直播', 'youtube_id': '@FTV_News'},
+    {'type_id': 'zhongtian', 'type_name': '中天新闻台24小时高清直播', 'youtube_id': '@CtiNews'},
+    {'type_id': 'zhongshi', 'type_name': '中视新闻台24小时高清直播', 'youtube_id': '@CSTV_NEWS'},
+    {'type_id': 'taishi', 'type_name': '台视新闻台24小时高清直播', 'youtube_id': '@TTV_NEWS'},
+    {'type_id': 'huashi', 'type_name': '华视新闻台24小时高清直播', 'youtube_id': '@CtsNews'},
+    {'type_id': 'gongshi', 'type_name': '公视新闻台24小时高清直播', 'youtube_id': '@PNNPTS'},
+    {'type_id': 'huanyu', 'type_name': '寰宇新闻台24小时高清直播', 'youtube_id': '@GlobalNews_Tw'},
+    {'type_id': 'jingxinwen', 'type_name': '镜新闻台24小时高清直播', 'youtube_id': '@mnewstw'},
+    {'type_id': 'dongsen_news', 'type_name': '东森新闻台24小时高清直播', 'youtube_id': '@newsebc'},
+    {'type_id': 'dongsen_caijing', 'type_name': '东森财经台24小时高清直播', 'youtube_id': '@57etv'},
+    {'type_id': 'feifan', 'type_name': '非凡新闻台24小时高清直播', 'youtube_id': '@ustv'},
+    {'type_id': 'nizhen', 'type_name': '倪珍播新聞24小时高清直播', 'youtube_id': '@nizhen_live'}, # 个人/搬运类直播
+    {'type_id': 'cartoon', 'type_name': 'cartoon LIVE', 'youtube_id': 'search?q=cartoon+live'},
+    {'type_id': '8world', 'type_name': '8world新闻24小时高清直播', 'youtube_id': '@8worldnews'},
+    {'type_id': 'live', 'type_name': '正在直播', 'youtube_id': 'search?q=live'},
+    {'type_id': 'news live', 'type_name': '新闻直播', 'youtube_id': 'search?q=news+live'},
+    {'type_id': 'music live', 'type_name': '音乐直播', 'youtube_id': 'search?q=music+live'},
+    {'type_id': 'lofi live', 'type_name': 'Lofi直播', 'youtube_id': 'search?q=lofi+hip+hop+live'},
+    {'type_id': 'space live', 'type_name': '太空直播', 'youtube_id': 'search?q=space+live'},
+    {'type_id': 'nature live', 'type_name': '自然直播', 'youtube_id': 'search?q=nature+live'},
+    {'type_id': 'game live', 'type_name': '游戏直播', 'youtube_id': 'search?q=gaming+live'},
+    {'type_id': 'sports live', 'type_name': '体育直播', 'youtube_id': 'search?q=sports+live'}
 ]
+
+
+
+    
 
 
 def debug_log(message, data=None):
