@@ -15,6 +15,7 @@ sys.path.append('..')
 
 DEBUG_LOG = '/sdcard/Download/ytb_debug.log'
 
+
 YOUTUBE_CLASSES = [
     {'type_id': '国际中文(亚洲/美洲)综合', 'type_name': '国际中文(亚洲/美洲)综合'},
     {'type_id': '八度空间华语新闻LIVE', 'type_name': '八度空间华语新闻LIVE'},
@@ -23,23 +24,20 @@ YOUTUBE_CLASSES = [
     {'type_id': 'CNA亚洲新闻台LIVE', 'type_name': 'CNA亚洲新闻台LIVE'},
     {'type_id': 'Berita rtm LIVE', 'type_name': 'Berita rtm LIVE'},
     {'type_id': 'AstroAwani LIVE', 'type_name': '新闻直播AstroAwani LIVE'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},
-    {'type_id': '新闻直播', 'type_name': '新闻直播'},    
+    {'type_id': 'TVBS新闻直播', 'type_name': 'TVBS新闻直播'},
+    {'type_id': '东森新闻直播', 'type_name': '东森新闻直播'},
+    {'type_id': '三立新闻直播', 'type_name': '三立新闻直播'},
+    {'type_id': '中天新闻直播', 'type_name': '中天新闻直播'},
+    {'type_id': '寰宇新闻直播', 'type_name': '寰宇新闻直播'},
+    {'type_id': '央视新闻直播', 'type_name': '央视新闻直播'},
+    {'type_id': 'CGTN新闻直播', 'type_name': 'CGTN新闻直播'},
+    {'type_id': 'BBC新闻直播', 'type_name': 'BBC新闻直播'},
+    {'type_id': 'CNN新闻直播', 'type_name': 'CNN新闻直播'},
+    {'type_id': 'NBC新闻直播', 'type_name': 'NBC新闻直播'},
+    {'type_id': 'SkyNews新闻直播', 'type_name': 'SkyNews新闻直播'},
+    {'type_id': 'ABC新闻直播', 'type_name': 'ABC新闻直播'},
+    {'type_id': '新浪新闻直播', 'type_name': '新浪新闻直播'},
+    {'type_id': '全网综合新闻直播', 'type_name': '新闻直播'},
     {'type_id': '自然', 'type_name': '自然'},
     {'type_id': '动画片', 'type_name': '动画片'},    
     {'type_id': '剧集', 'type_name': '剧集'},
@@ -52,7 +50,46 @@ YOUTUBE_CLASSES = [
     {'type_id': '16K HDR', 'type_name': '16K HDR'},
     {'type_id': '科技', 'type_name': '科技'},
     {'type_id': '解说', 'type_name': '解说'},
+    
 ]
+
+CATEGORY_QUERY = {
+    '动画片': '动画 国漫 anime cartoon',
+    '短剧': '短剧',
+    'TVBS新闻直播': 'TVBS 新闻 直播 live',
+    '东森新闻直播': '东森 新闻 直播 live',
+    '三立新闻直播': '三立 新闻 直播 live',
+    '中天新闻直播': '中天 新闻 直播 live',
+    '寰宇新闻直播': '寰宇 新闻 直播 live',
+    '央视新闻直播': 'CCTV 新闻 直播 live',
+    'CGTN新闻直播': 'CGTN news live 直播',
+    'BBC新闻直播': 'BBC News live',
+    'CNN新闻直播': 'CNN News live',
+    'NBC新闻直播': 'NBC News live',
+    'SkyNews新闻直播': 'Sky News live',
+    'ABC新闻直播': 'ABC News live',
+    '新闻直播': '新闻 直播 news live 24小时',
+}
+
+CATEGORY_FILTERS = {
+    '新闻直播': [
+        _filter_group('region', '地区/语言', [
+            ('台湾华语', '台湾 新闻 直播'), 
+            ('中国大陆', '央视 新闻 直播'), 
+            ('港澳中文', '香港 澳门 新闻 直播'),
+            ('新马华语', '新加坡 马来西亚 华语新闻 直播'), 
+            ('国际英语', 'News Live English'),
+        ]),
+        _filter_group('channel', '热门电台', [
+            ('TVBS', 'TVBS NEWS'), 
+            ('东森', '东森新闻 CH51'), 
+            ('CCTV', 'CCTV13 新闻'),
+            ('凤凰卫视', '凤凰卫视资讯台'), 
+            ('CNA', 'CNA 24/7'),
+        ])
+    ]
+}
+
 
 CATEGORY_QUERY = {
     '动画片': '动画 国漫 anime cartoon',
