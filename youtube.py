@@ -23,7 +23,7 @@ YOUTUBE_CLASSES = [
     {'type_id': 'TaiwanPlusNews LIVE', 'type_name': 'TaiwanPlusNews LIVE'},
     {'type_id': 'CNA亚洲新闻台LIVE', 'type_name': 'CNA亚洲新闻台LIVE'},
     {'type_id': 'Berita rtm LIVE', 'type_name': 'Berita rtm LIVE'},
-    {'type_id': 'AstroAwani LIVE', 'type_name': '新闻直播AstroAwani LIVE'},
+    {'type_id': 'AstroAwani LIVE', 'type_name': 'AstroAwani LIVE'}, # 统一名称避免前后端不一致
     {'type_id': 'TVBS新闻直播', 'type_name': 'TVBS新闻直播'},
     {'type_id': '东森新闻直播', 'type_name': '东森新闻直播'},
     {'type_id': '三立新闻直播', 'type_name': '三立新闻直播'},
@@ -37,7 +37,7 @@ YOUTUBE_CLASSES = [
     {'type_id': 'SkyNews新闻直播', 'type_name': 'SkyNews新闻直播'},
     {'type_id': 'ABC新闻直播', 'type_name': 'ABC新闻直播'},
     {'type_id': '新浪新闻直播', 'type_name': '新浪新闻直播'},
-    {'type_id': '全网综合新闻直播', 'type_name': '新闻直播'},
+    {'type_id': '全网综合新闻直播', 'type_name': '全网综合新闻直播'}, # 建议保持一致
     {'type_id': '自然', 'type_name': '自然'},
     {'type_id': '动画片', 'type_name': '动画片'},    
     {'type_id': '剧集', 'type_name': '剧集'},
@@ -50,12 +50,32 @@ YOUTUBE_CLASSES = [
     {'type_id': '16K HDR', 'type_name': '16K HDR'},
     {'type_id': '科技', 'type_name': '科技'},
     {'type_id': '解说', 'type_name': '解说'},
-    
 ]
 
+# 合并后的查询字典（确保没有任何 Key 被覆盖）
 CATEGORY_QUERY = {
+    # 基础分类
     '动画片': '动画 国漫 anime cartoon',
     '短剧': '短剧',
+    '剧集': '电视剧 剧集 drama',
+    '电影': '电影 movie',
+    '纪录片': '纪录片 documentary',
+    '放松': '放松 冥想 自然 音乐 relax meditation nature',
+    '4K': '4K video',
+    'HDR': 'HDR video',
+    '自然': '大自然 风景 动物 世界 nature wildlife scenery',
+    '16K HDR': '16K HDR video',
+    '科技': '科技 technology',
+    '解说': '电影解说 故事解说',
+    
+    # 新闻频道（从 YOUTUBE_CLASSES 的 type_id 严格映射）
+    '国际中文(亚洲/美洲)综合': '国际中文 新闻 综合',
+    '八度空间华语新闻LIVE': '八度空间 华语新闻 直播 live 8TV',
+    '凤凰卫视资讯台LIVE': '凤凰卫视资讯台 live 直播凤凰',
+    'TaiwanPlusNews LIVE': 'TaiwanPlus News live',
+    'CNA亚洲新闻台LIVE': 'CNA news live Channel NewsAsia',
+    'Berita rtm LIVE': 'Berita RTM live',
+    'AstroAwani LIVE': 'Astro Awani live',
     'TVBS新闻直播': 'TVBS 新闻 直播 live',
     '东森新闻直播': '东森 新闻 直播 live',
     '三立新闻直播': '三立 新闻 直播 live',
@@ -68,11 +88,13 @@ CATEGORY_QUERY = {
     'NBC新闻直播': 'NBC News live',
     'SkyNews新闻直播': 'Sky News live',
     'ABC新闻直播': 'ABC News live',
-    '新闻直播': '新闻 直播 news live 24小时',
+    '新浪新闻直播': '新浪新闻 直播 live',
+    '全网综合新闻直播': '新闻 直播 news live 24小时',
 }
 
 CATEGORY_FILTERS = {
-    '新闻直播': [
+    # 确保 Key 与 YOUTUBE_CLASSES 中的 type_id 一致
+    '全网综合新闻直播': [
         _filter_group('region', '地区/语言', [
             ('台湾华语', '台湾 新闻 直播'), 
             ('中国大陆', '央视 新闻 直播'), 
@@ -89,7 +111,6 @@ CATEGORY_FILTERS = {
         ])
     ]
 }
-
 
 CATEGORY_QUERY = {
     '动画片': '动画 国漫 anime cartoon',
