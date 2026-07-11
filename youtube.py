@@ -52,9 +52,10 @@ YOUTUBE_CLASSES = [
     {'type_id': '解说', 'type_name': '解说'},
 ]
 
-# 合并后的查询字典（确保没有任何 Key 被覆盖）
+
+
 CATEGORY_QUERY = {
-    # 基础分类
+    # === 基础分类 ===
     '动画片': '动画 国漫 anime cartoon',
     '短剧': '短剧',
     '剧集': '电视剧 剧集 drama',
@@ -68,7 +69,7 @@ CATEGORY_QUERY = {
     '科技': '科技 technology',
     '解说': '电影解说 故事解说',
     
-    # 新闻频道（从 YOUTUBE_CLASSES 的 type_id 严格映射）
+    # === 新闻频道（从 YOUTUBE_CLASSES 的 type_id 严格映射） ===
     '国际中文(亚洲/美洲)综合': '国际中文 新闻 综合',
     '八度空间华语新闻LIVE': '八度空间 华语新闻 直播 live 8TV',
     '凤凰卫视资讯台LIVE': '凤凰卫视资讯台 live 直播凤凰',
@@ -92,41 +93,6 @@ CATEGORY_QUERY = {
     '全网综合新闻直播': '新闻 直播 news live 24小时',
 }
 
-CATEGORY_FILTERS = {
-    # 确保 Key 与 YOUTUBE_CLASSES 中的 type_id 一致
-    '全网综合新闻直播': [
-        _filter_group('region', '地区/语言', [
-            ('台湾华语', '台湾 新闻 直播'), 
-            ('中国大陆', '央视 新闻 直播'), 
-            ('港澳中文', '香港 澳门 新闻 直播'),
-            ('新马华语', '新加坡 马来西亚 华语新闻 直播'), 
-            ('国际英语', 'News Live English'),
-        ]),
-        _filter_group('channel', '热门电台', [
-            ('TVBS', 'TVBS NEWS'), 
-            ('东森', '东森新闻 CH51'), 
-            ('CCTV', 'CCTV13 新闻'),
-            ('凤凰卫视', '凤凰卫视资讯台'), 
-            ('CNA', 'CNA 24/7'),
-        ])
-    ]
-}
-
-CATEGORY_QUERY = {
-    '动画片': '动画 国漫 anime cartoon',
-    '短剧': '短剧',
-    '剧集': '电视剧 剧集 drama',
-    '电影': '电影 movie',
-    '纪录片': '纪录片 documentary',
-    '放松': '放松 冥想 自然 音乐 relax meditation nature',
-    '4K': '4K video',
-    'HDR': 'HDR video',
-    '自然': '大自然 风景 动物 世界 nature wildlife scenery',
-    '16K HDR': '16K HDR video',
-    '科技': '科技 technology',
-    '解说': '电影解说 故事解说',
-}
-
 CATEGORY_ALIASES = {
     '動畫片': '动画片',
     '劇集': '剧集',
@@ -138,18 +104,25 @@ CATEGORY_ALIASES = {
     'documentary': '纪录片',
 }
 
-
 def _filter_group(key, name, pairs):
+    """
+    生成过滤组数据结构
+    返回样式：{'key': 'region', 'name': '地区/语言', 'value': [{'n': '全部', 'v': ''}, {'n': '标签', 'v': '搜索词'}]}
+    """
     return {
         'key': key,
         'name': name,
         'value': [{'n': '全部', 'v': ''}] + [{'n': n, 'v': v} for n, v in pairs]
     }
 
-
 def _with_year(*groups):
-    years = [{'n': '全部', 'v': ''}] + [{'n': str(year), 'v': str(year)} for year in range(2026, 1957, -1)]
+    """
+    自动为分类追加年份过滤（包含 2026 至 1957 年）
+    """
+    years = [{'n': '全部', 'v': ''}] + [{'n': str(year), 'v': str(year)} for year in range(2026, 1956, -1)]
     return [{'key': 'year', 'name': '年份', 'value': years}] + list(groups)
+
+
 
 
 CATEGORY_FILTERS = {
