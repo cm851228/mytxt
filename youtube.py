@@ -16,33 +16,29 @@ sys.path.append('..')
 DEBUG_LOG = '/sdcard/Download/ytb_debug.log'
 
 
+
 YOUTUBE_CLASSES = [
     {'type_id': '国际中文(美洲)', 'type_name': '国际中文(美洲)'},
-    {'type_id': '国际中文(亚洲)', 'type_name': '国际中文(亚洲)'},
+    {'type_id': '新闻', 'type_name': '新闻'},
     {'type_id': 'PL@tvbanywhere', 'type_name': 'TVB Anywhere'},
     {'type_id': 'PL@TVBDrama', 'type_name': 'TVB国语4K剧场'},
-    {'type_id': '24/7Cartoons', 'type_name': '24/7Cartoons'},
+    {'type_id': '24/7Cartoons', 'type_name': '24/7Cartoons'},    
     {'type_id': '自然', 'type_name': '自然'},
-    {'type_id': '纪录片', 'type_name': '纪录片'},
     {'type_id': '动画片', 'type_name': '动画片'},
+    {'type_id': '纪录片', 'type_name': '纪录片'},
     {'type_id': '剧集', 'type_name': '剧集'},
-    {'type_id': '电影', 'type_name': '电影'},
+    {'type_id': '电影', 'type_name': '电影'},    
     {'type_id': '短剧', 'type_name': '短剧'},
-    {'type_id': '4K', 'type_name': '4K'},
-    {'type_id': 'HDR', 'type_name': 'HDR'},
     {'type_id': '放松', 'type_name': '放松'},
     {'type_id': '16K HDR', 'type_name': '16K HDR'},
     {'type_id': '科技', 'type_name': '科技'},
-    {'type_id': '解说', 'type_name': '解说'},
+    {'type_id': '解说', 'type_name': '解说'},    
+    {'type_id': '4K', 'type_name': '4K'},
+    {'type_id': 'HDR', 'type_name': 'HDR'},
+    
 ]
 
 CATEGORY_QUERY = {
-    # 以下为新增的前四个频道的对应检索词，确保逻辑完整
-    '国际中文(美洲)': '国际中文 美洲 国际中文 亚洲 中文电视',
-    'TVB Anywhere': 'TVB Anywhere 港剧 tvb drama',
-    'TVB国语4K剧场': 'TVB 国语 4K 电视剧',
-    '24/7Cartoons': '24/7 cartoons live animation',
-    # 原有分类检索词
     '动画片': '动画 国漫 anime cartoon',
     '短剧': '短剧',
     '剧集': '电视剧 剧集 drama',
@@ -55,6 +51,11 @@ CATEGORY_QUERY = {
     '16K HDR': '16K HDR video',
     '科技': '科技 technology',
     '解说': '电影解说 故事解说',
+    '新闻': '中文新闻 24小时直播 live news chinese',
+    '国际中文(美洲)': '国际中文 美洲 直播',
+    'PL@tvbanywhere': 'TVB Anywhere live streaming',
+    'PL@TVBDrama': 'TVB 4K 剧场 国语',
+    '24/7Cartoons': '24/7 cartoons live animation',
 }
 
 CATEGORY_ALIASES = {
@@ -63,15 +64,12 @@ CATEGORY_ALIASES = {
     '電影': '电影',
     '紀錄片': '纪录片',
     '解說': '解说',
+    '新聞': '新闻',
+    'news': '新闻',
     'movie': '电影',
     'game': '科技',
     'documentary': '纪录片',
 }
-
-
-
-
-
 
 
 def _filter_group(key, name, pairs):
@@ -197,7 +195,44 @@ CATEGORY_FILTERS = {
     '解说': [
         _filter_group('channel', '频道主', [('宇哥侃故事', '@yuge'), ('零度解说', '@lingdujieshuo')])
     ],
+    '新闻': [
+        _filter_group('region', '区域/平台', [
+            ('大马/新加坡', '马来西亚 新加坡 新闻 直播'),
+            ('台湾主流', '台湾 新闻 24小时 直播'),
+            ('港澳/国际', '香港 国际 中文 新闻 直播'),
+        ]),
+        _filter_group('channel', '电视台(24H)', [
+            # 港澳/国际/大马/新加坡
+            ('国际中文综合', '国际中文 亚洲 美洲 综合直播'),
+            ('八度空间新闻', '八度空间华语新闻 八度空间 直播'),
+            ('凤凰卫视资讯台', '凤凰卫视资讯台 24小时 直播'),
+            ('新唐人亚太台', '新唐人亚太台 直播'),
+            ('TaiwanPlus', 'TaiwanPlus News live'),
+            ('CNA亚洲新闻', 'CNA 亚洲新闻台 Channel NewsAsia live'),
+            ('Berita RTM', 'Berita RTM live'),
+            ('Astro Awani', 'Astro Awani live'),
+            ('新加坡8视界', '8world新闻 8视界 直播'),
+            ('倪珍播新聞', '倪珍播新聞 直播'),
+            # 台湾主流新闻台
+            ('三立新闻台', '三立新闻台 直播'),
+            ('三立iNEWS', '三立iNEWS 直播'),
+            ('TVBS新闻台', 'TVBS新闻台 直播'),
+            ('民视新闻台', '民视新闻台 直播'),
+            ('中天新闻台', '中天新闻台 直播'),
+            ('中视新闻台', '中视新闻台 直播'),
+            ('台视新闻台', '台视新闻台 直播'),
+            ('华视新闻台', '华视新闻台 直播'),
+            ('公视新闻台', '公视新闻台 直播'),
+            ('寰宇新闻台', '寰宇新闻台 直播'),
+            ('镜新闻台', '镜新闻台 直播'),
+            ('东森新闻台', '东森新闻台 直播'),
+            ('东森财经台', '东森财经台 直播'),
+            ('非凡新闻台', '非凡新闻台 直播'),
+            ('卡通直播', 'cartoon LIVE'),
+        ])
+    ],
 }
+
 
 
 def debug_log(message, data=None):
