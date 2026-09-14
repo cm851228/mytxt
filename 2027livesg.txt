@@ -25,6 +25,16 @@
 第8集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_rewxtnv5/v/11/pv/1/ev/16/flavorId/1_arjrbhib/name/a.mp4/index.m3u8/index-v1-a1.m3u8
 第9集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_4c3m559a/v/11/pv/1/ev/16/flavorId/1_o9mk1coh/name/a.mp4/index.m3u8/index-v1-a1.m3u8
 第10集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_xyosvjui/v/11/pv/1/ev/16/flavorId/1_rhm9xa3l/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第11集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_1omg8kn3/v/11/pv/1/ev/16/flavorId/1_2jyrwgud/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第12集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_o7owq05u/v/11/pv/1/ev/16/flavorId/1_25n2xjhv/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第13集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_ihn6ttkb/v/11/pv/1/ev/16/flavorId/1_wa0ekp58/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第14集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_dc41jp07/v/11/pv/1/ev/16/flavorId/1_yzevwlna/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第15集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_i6c8nk8y/v/11/pv/1/ev/16/flavorId/1_ancwpr8g/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第16集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_ae4zp9ya/v/11/pv/1/ev/16/flavorId/1_r0axp950/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第17集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_ygxkltgb/v/11/pv/1/ev/16/flavorId/1_n6iwtoni/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第18集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_saxp8zi4/v/11/pv/1/ev/16/flavorId/1_zfvis66r/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第19集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_1znw462x/v/11/pv/1/ev/16/flavorId/1_50ojtbts/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第20集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_uhpnxked/v/11/pv/1/ev/16/flavorId/1_90bkj7ls/name/a.mp4/index.m3u8/index-v1-a1.m3u8
 
 
 青春老鸟,#genre#
@@ -67,6 +77,14 @@ Yes Captain 第1集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/s
 第14集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_3yn3jl7d/v/11/pv/1/ev/16/flavorId/1_2ux23iwi/name/a.mp4/index.m3u8/index-v1-a1.m3u8
 第15集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_7tkvthwk/v/11/pv/1/ev/16/flavorId/1_qhnvlqu6/name/a.mp4/index.m3u8/index-v1-a1.m3u8
 第16集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_sb3j6cs6/v/11/pv/1/ev/16/flavorId/1_cv2avjzt/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第17集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_hl82jk85/v/11/pv/1/ev/16/flavorId/1_x8za8vhn/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第18集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_0nnbnvqs/v/11/pv/1/ev/16/flavorId/1_gqwpkyao/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第19集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_ard76v3g/v/11/pv/1/ev/16/flavorId/1_9nqn6hf3/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第20集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_kjzvwyr8/v/11/pv/1/ev/16/flavorId/1_5ucgbi5v/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第21集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_rea0m2ov/v/11/pv/1/ev/16/flavorId/1_wllpbe3i/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第22集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_l6tksnrw/v/11/pv/1/ev/16/flavorId/1_4ahhy056/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第23集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_g6j5uwew/v/11/pv/1/ev/16/flavorId/1_sqr27z3k/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第24集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_1bi78qz9/v/11/pv/1/ev/16/flavorId/1_plskcg82/name/a.mp4/index.m3u8/index-v1-a1.m3u8
 
 
 Umar Umami,#genre#
