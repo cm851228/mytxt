@@ -92,6 +92,49 @@ Umar Umami 第1集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/se
 
 
 
+周星驰电影,#genre#
+大话西游之月光宝盒,https://vip.lzcdn2.com/20220322/239_4867f0dd/1200k/hls/mixed.m3u8
+大话西游之仙履奇缘,https://s1.bfzycdn.com/video/dahuaxiyouzhidashengquqin/HD%E7%B2%A4%E8%AF%AD/index.m3u8
+家有喜事97,https://vip.lz-cdn16.com/20230422/18406_606c2881/2000k/hls/mixed.m3u8
+家有喜事92,https://vip.lzcdn2.com/20220521/7145_a1ccda25/1200k/hls/mixed.m3u8
+鹿鼎记,https://cdn4.vipzyk-video.com/20220605/16675_2d0760ef/1000k/hls/mixed.m3u8
+鹿鼎记2神龙教,https://vip.lz-cdn3.com/20230117/17227_70136f3a/1800k/hls/mixed.m3u8
+新精武门,https://vod12.wgslsw.com/20240413/rllXDPxK/index.m3u8
+新精武门1991,https://svip.high24-playback.com/20241210/12882_04a0c5c5/2000k/hls/mixed.m3u8
+赌圣,https://yzzy1.play-cdn1.com/20240417/43987_735de253/2000k/hls/mixed.m3u8
+赌侠,https://hdzy.play-cdn23.com/20240416/8208_a151ff75/2000k/hls/mixed.m3u8
+上海滩赌圣,https://s6.bfzycdn.com/video/duxia2zhishanghaitandushengyueyuban/HD/index.m3u8
+逃学威龙,https://s2.bfzycdn.com/video/taoxueweilong/HD%E7%B2%A4%E8%AF%AD/index.m3u8
+逃学威龙2,https://s2.bfzycdn.com/video/taoxueweilong2/HD%E7%B2%A4%E8%AF%AD/index.m3u8
+审死官,https://s6.bfzycdn.com/video/shensiguan/HD%E7%B2%A4%E8%AF%AD/index.m3u8
+整蛊专家,https://vip.dytt-film.com/20250304/10907_481d462e/3000k/hls/mixed.m3u8
+龙的传人,https://s1.bfzycdn.com/video/longdechuanren/HD%E7%B2%A4%E8%AF%AD/index.m3u8
+武状元苏乞儿,https://s1.bfzycdn.com/video/wuzhuangyuansuqier/HD%E5%9B%BD%E8%AF%AD/index.m3u8
+唐伯虎点秋香,https://s2.bfzycdn.com/video/tangbohudianqiuxiang/HD%E7%B2%A4%E8%AF%AD/index.m3u8
+济公,https://svip.high21-playback.com/20241106/39795_3aad2024/2000k/hls/mixed.m3u8
+九品芝麻官,https://cdn13.hdzyk-cdn.com/20230302/15848_d8e0e4c4/2000k/hls/mixed.m3u8
+少林足球,https://c1.ddbbffcdn.com/video/shaolinzuqiu/HD粤语/index.m3u8
+国产凌凌漆,https://c1.rrcdnbf2.com/video/guochanlinglingqi/HD粤语/index.m3u8
+功夫,https://ukzy.ukubf4.com/20220407/QSsCj8dg/2000kb/hls/index.m3u8
+长江七号,https://v3.ppqrrs.com/wjv3/202312/30/9uCnsjtqgQ2/video/index.m3u8
+大内密探零零发,https://p.bvvvvvvvvv1f.com/video/daneimitanlinglingfa/HD粤语/index.m3u8
+食神,https://v3.ppqrrs.com/wjv3/202312/29/Rt91x5dK342/video/index.m3u8
+百变星君,https://s1.bfzycdn.com/video/baibianxingjun/HD%E7%B2%A4%E8%AF%AD/index.m3u8
+破坏之王,https://vip.dytt-live.com/20250423/4724_dd03de08/3000k/hls/mixed.m3u8
+新喜剧之王,https://v3.ppqrrs.com/wjv3/202312/28/0QLeTu8cXQ2/video/index.m3u8
+千王之王2000,https://vip.dytt-live.com/20250328/2463_1843e35d/3000k/hls/mixed.m3u8
+行运一条龙,https://v8.ppqrrs.com/202505/23/DJCh4msJuu80/video/1000k_720/hls/index.m3u8
+算死草,https://yzzy1.play-cdn20.com/20240417/38009_2bfa9ca1/2000k/hls/mixed.m3u8
+西游降魔篇,https://p.bvvvvvvvvv1f.com/video/xiyoujiangmopian/HD粤语/index.m3u8
+少林女足,https://bfeng11.com/video/gongfunvzu/618845436188/index.m3u8
+望夫成龙,https://s2.bfzycdn.com/video/wangfuchenglong/HD%E7%B2%A4%E8%AF%AD/index.m3u8
+无敌幸运星,https://v12.ppqrrs.com/202505/23/TXFQQaDVkg84/video/1000k_720/hls/index.m3u8
+漫画威龙,https://s2.bfzycdn.com/video/manhuaweilong/DVD%E7%B2%A4%E8%AF%AD/index.m3u8
+一本漫画闯天涯,https://s1.bfllvip.com/video/yibenmanhuachuangtianyayueyu/c9ec94967dbb/index.m3u8
+最佳女婿,https://s2.bfzycdn.com/video/zuijianvxu/HD%E7%B2%A4%E8%AF%AD/index.m3u8
+豪门夜宴,https://s2.bfzycdn.com/video/haomenyeyan/DVD%E7%B2%A4%E8%AF%AD/index.m3u8
+
+
 
 
 马东石系列,#genre#
