@@ -1,4 +1,6 @@
 好评电影,#genre#
+欢迎来龙餐厅,https://vip.ffzy-play10.com/20260830/71497_6ff26823/2000k/hls/mixed.m3u8
+夜王,https://vip.ffzy-play10.com/20260825/71200_f55c49be/2000k/hls/mixed.m3u8
 给阿嬷的情书,https://b3.bdzybf22.com/videos/202608/31/6a94fef76ad3eb5f710b8f72/58268e/index.m3u8
 寻秦记,https://v.lzcdn31.com/20260221/2757_d5fe369f/2000k/hls/mixed.m3u8
 功夫女足(TC版),https://v.gsuus.com/play/hls/dG68wN7b/index.m3u8
@@ -11,6 +13,14 @@
 芭蕾復仇曲,http://s5.bfzycdn.com/video/baleifuchouqu/HD/index.m3u8
 我的朋友安德烈,http://s1.fengbao9.com/video/wodepengyouandelie/e6766ca532cb/index.m3u8
 流感,https://s6.bfzycdn.com/video/liugan/HD%E4%B8%AD%E5%AD%97/index.m3u8
+
+
+神之手,#genre#
+神之手 第1集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_6ovft61t/v/11/pv/1/ev/16/flavorId/1_9ddi91j1/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第2集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_jti93ewm/v/11/pv/1/ev/16/flavorId/1_5el04onk/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第3集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_02ar886c/v/11/pv/1/ev/16/flavorId/1_7m2jhdan/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第4集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_ac2n7ex7/v/11/pv/1/ev/16/flavorId/1_gj4mct6a/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第5集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_m3npvcgp/v/21/pv/1/ev/23/flavorId/1_gy5cxz0z/name/a.mp4/index.m3u8/index-v1-a1.m3u8
 
 
 
@@ -85,6 +95,10 @@ Yes Captain 第1集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/s
 第22集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_l6tksnrw/v/11/pv/1/ev/16/flavorId/1_4ahhy056/name/a.mp4/index.m3u8/index-v1-a1.m3u8
 第23集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_g6j5uwew/v/11/pv/1/ev/16/flavorId/1_sqr27z3k/name/a.mp4/index.m3u8/index-v1-a1.m3u8
 第24集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_1bi78qz9/v/11/pv/1/ev/16/flavorId/1_plskcg82/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第25集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_o2obylfh/v/11/pv/1/ev/16/flavorId/1_6l5dyjdb/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第26集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_h2lxz7j2/v/11/pv/1/ev/16/flavorId/1_z36kzu5m/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第27集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_qk1ru71p/v/11/pv/1/ev/16/flavorId/1_d54hj3y6/name/a.mp4/index.m3u8/index-v1-a1.m3u8
+第28集,https://k-toggle.akamaized.net/fhls/p/2082311/sp/208231100/serveFlavor/entryId/1_snz1eglr/v/11/pv/1/ev/16/flavorId/1_do2z246d/name/a.mp4/index.m3u8/index-v1-a1.m3u8
 
 
 Umar Umami,#genre#
