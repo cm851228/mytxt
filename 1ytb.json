@@ -1,0 +1,174 @@
+{
+  "recommend": "LIST:王志安,LT視界,柴静 Chai Jing,汀见,硅谷101,医痴的木头屋,LT+,BBC News 中文,老高與小茉 @laogao,自说自话的总裁,柴静 Chai Jing,滇西小哥 @dianxixiaoge,Mr Beast @MrBeast,老饭骨,小高姐的 Magic Ingredients,不良林,精选电视剧频道,国剧大本营,TVB Best Drama 熱播劇場,CCTV电视剧,中視經典戲劇,网剧独播,Jetsen Film | 捷成华视 - 华语电影,先锋影音 电影,@Urbanshort-TV 都市 短剧,24小时 中文 电视剧 live 直播",
+  "class": [
+    {
+      "type_id": "channel",
+      "type_name": "🆘频道主"
+    },
+    {
+      "type_id": "live24h",
+      "type_name": "实时中文24小时直播"
+    },
+    {
+      "type_id": "short_drama",
+      "type_name": "短剧"
+    },
+    {
+      "type_id": "tv_drama",
+      "type_name": "电视剧"
+    },
+    {
+      "type_id": "movie",
+      "type_name": "电影"
+    }
+  ],
+  "filters": {
+    "channel": [
+      {
+        "key": "tid",
+        "name": "频道精选",
+        "value": [
+          {"n": "全部", "v": "LIST:LT視界,王志安,柴静 Chai Jing,汀见,硅谷101,BBC News 中文,李肅Hi5第一頻道,崔永元,老高與小茉,自说自话的总裁,老肉雜談,滇西小哥,老饭骨,小高姐,Mr Beast,Mark Rober,不良林,悟空的日常"},
+          {"n": "ltjia", "v": "LT+"},
+          {"n": "柴静", "v": "柴静 Chai Jing"},
+          {"n": "王志安", "v": "王志安"},
+          {"n": "医痴的木头屋", "v": "医痴的木头屋"},
+          {"n": "老高与小茉", "v": "老高與小茉 @laogao"},
+          {"n": "自说自话的总裁", "v": "自说自话的总裁"},
+          {"n": "滇西小哥", "v": "滇西小哥 @dianxixiaoge"},
+          {"n": "老饭骨", "v": "老饭骨"},
+          {"n": "小高姐", "v": "小高姐的 Magic Ingredients"},
+          {"n": "Mr Beast", "v": "Mr Beast @MrBeast"},
+          {"n": "Mark Rober", "v": "Mark Rober @MarkRober"},
+          {"n": "不良林", "v": "不良林"},
+          {"n": "涌哥侃侃", "v": "涌哥侃侃 @ygkkk"}
+        ]
+      }
+    ],
+    "live24h": [
+      {
+        "key": "tid",
+        "name": "24小时实时中文流",
+        "value": [
+          {"n": "全部实时直播", "v": "live 24小时 电视剧 中文 直播"},
+          {"n": "中视经典戏剧", "v": "中視經典戲劇 live"},
+          {"n": "大爱剧场", "v": "大愛劇場 DaAiDrama live"},
+          {"n": "TVB Best Drama", "v": "TVB Best Drama 熱播劇場 live"},
+          {"n": "TVB Drama 国语剧场", "v": "TVB Drama 国语剧场 live"},
+          {"n": "港剧金典", "v": "港剧金典——HK Drama Classics live"},
+          {"n": "国剧大本营", "v": "国剧大本营 live"},
+          {"n": "CCTV电视剧", "v": "CCTV电视剧 live 24小时"},
+          {"n": "国家地理TW", "v": "國家地理 National Geographic TW live"},
+          {"n": "BBC Earth中文", "v": "BBC Earth 中文 live 24小时"},
+          {"n": "动物世界爱好者", "v": "動物世界愛好者 animal world Lover live"}
+        ]
+      }
+    ],
+    "short_drama": [
+      {
+        "key": "tid",
+        "name": "剧场频道",
+        "value": [
+          {"n": "全部短剧", "v": "短剧 全集"},
+          {"n": "都市剧场", "v": "@Urbanshort-TV 都市 短剧"},
+          {"n": "九酱爱追剧", "v": "@NineSauceDramaTV"},
+          {"n": "百万好剧场", "v": "@1-pw5ox"},
+          {"n": "咖啡追剧", "v": "@coffeedrama605"},
+          {"n": "斗罗短剧", "v": "@DouluoDrama123 斗罗短剧"},
+          {"n": "嘟嘟剧场", "v": "@DUDUJUCHANG"},
+          {"n": "牛牛短剧", "v": "@niuniuduanju"}
+        ]
+      },
+      {
+        "key": "topic",
+        "name": "题材分类",
+        "value": [
+          {"n": "全部题材", "v": ""},
+          {"n": "都市爽剧", "v": "都市 短剧 全集"},
+          {"n": "复仇逆袭", "v": "复仇 短剧 全集"},
+          {"n": "穿越奇幻", "v": "穿越 短剧 全集"},
+          {"n": "爱情甜宠", "v": "爱情 短剧 全集"},
+          {"n": "喜剧搞笑", "v": "喜剧 短剧 全集"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部", "v": ""},
+          {"n": "2025", "v": "2025"},
+          {"n": "2024", "v": "2024"},
+          {"n": "2023", "v": "2023"},
+          {"n": "2022", "v": "2022"}
+        ]
+      }
+    ],
+    "tv_drama": [
+      {
+        "key": "tid",
+        "name": "硬编码频道列表",
+        "value": [
+          {"n": "全部指定频道", "v": "LIST:精选电视剧频道,国剧大本营,华剧精彩剧集馆,TVB Best Drama 熱播劇場,中視經典戲劇,中国出色电视剧,网剧独播,感谢订阅中剧独播,大愛劇場 DaAiDrama,甜宠追剧社,华语独播电视剧频道,森宇热播剧场,港剧金典——HK Drama Classics,China Zone 剧乐部,谍迷影工场,影視劇獨播,CCTV电视剧,中国经典剧场Chinese drama,熊猫追剧社Panda Drama Channel,TVB Drama 国语剧场,中国爆款电视剧,破壳影视 Chinese Drama,熱劇同播,大劇獨播MZTV"},
+          {"n": "精选电视剧频道", "v": "精选电视剧频道"},
+          {"n": "国剧大本营", "v": "国剧大本营"},
+          {"n": "华剧精彩剧集馆", "v": "华剧精彩剧集馆"},
+          {"n": "TVB Best Drama 熱播劇場", "v": "TVB Best Drama 熱播劇場"},
+          {"n": "中視經典戲劇", "v": "中視經典戲劇"},
+          {"n": "中国出色电视剧", "v": "中国出色电视剧"},
+          {"n": "网剧独播", "v": "网剧独播"},
+          {"n": "感谢订阅中剧独播", "v": "感谢订阅中剧独播"},
+          {"n": "大愛劇場 DaAiDrama", "v": "大愛劇場 DaAiDrama"},
+          {"n": "甜宠追剧社", "v": "甜宠追剧社"},
+          {"n": "华语独播电视剧频道", "v": "华语独播电视剧频道"},
+          {"n": "森宇热播剧场", "v": "森宇热播剧场"},
+          {"n": "港剧金典——HK Drama Classics", "v": "港剧金典——HK Drama Classics"},
+          {"n": "China Zone 剧乐部", "v": "China Zone 剧乐部"},
+          {"n": "谍迷影工场", "v": "谍迷影工场"},
+          {"n": "影視劇獨播", "v": "影視劇獨播"},
+          {"n": "CCTV电视剧", "v": "CCTV电视剧"},
+          {"n": "中国经典剧场Chinese drama", "v": "中国经典剧场Chinese drama"},
+          {"n": "熊猫追剧社Panda Drama Channel", "v": "熊猫追剧社Panda Drama Channel"},
+          {"n": "TVB Drama 国语剧场", "v": "TVB Drama 国语剧场"},
+          {"n": "中国爆款电视剧", "v": "中国爆款电视剧"},
+          {"n": "破壳影视 Chinese Drama", "v": "破壳影视 Chinese Drama"},
+          {"n": "熱劇同播", "v": "熱劇同播"},
+          {"n": "大劇獨播MZTV", "v": "大劇獨播MZTV"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部", "v": ""},
+          {"n": "2025", "v": "2025"},
+          {"n": "2024", "v": "2024"},
+          {"n": "2023", "v": "2023"},
+          {"n": "经典怀旧", "v": "经典 电视剧"}
+        ]
+      }
+    ],
+    "movie": [
+      {
+        "key": "tid",
+        "name": "指定电影频道",
+        "value": [
+          {"n": "全部指定电影", "v": "LIST:先锋影音,Jetsen Film | 捷成华视 - 华语电影,华语影视频道"},
+          {"n": "先锋影音", "v": "先锋影音 电影"},
+          {"n": "Jetsen Film | 捷成华视 - 华语电影", "v": "Jetsen Film | 捷成华视 - 华语电影"},
+          {"n": "华语影视频道", "v": "华语影视频道"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部", "v": ""},
+          {"n": "2025", "v": "2025"},
+          {"n": "2024", "v": "2024"},
+          {"n": "2023", "v": "2023"},
+          {"n": "经典", "v": "经典 电影"}
+        ]
+      }
+    ]
+  }
+}
