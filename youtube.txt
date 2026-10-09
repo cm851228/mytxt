@@ -64,7 +64,7 @@
 {
             "type_id": "ZB体育",
             "type_name": "ZB体育"
-        }
+        },
 {
             "type_id": "PL动画片",
             "type_name": "PL动画片"
