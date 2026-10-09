@@ -10,6 +10,14 @@
             "type_name": "国际中文(美洲)"
         },
 {
+            "type_id": "ZB新闻",
+            "type_name": "ZB新闻"
+        },
+{
+            "type_id": "直播",
+            "type_name": "24小时直播"
+        },
+{
             "type_id": "PL@tvbanywhere",
             "type_name": "TVB Anywhere"
         },
@@ -24,10 +32,6 @@
 {
             "type_id": "24/7Cartoons",
             "type_name": "24/7Cartoons"
-        },
-{
-            "type_id": "ZB新闻",
-            "type_name": "ZB新闻"
         },
 {
             "type_id": "ZB美食",
@@ -56,10 +60,6 @@
 {
             "type_id": "ZB纪录片",
             "type_name": "ZB纪录片"
-        },
-{
-            "type_id": "直播",
-            "type_name": "24小时直播"
         },
 {
             "type_id": "PL动画片",
