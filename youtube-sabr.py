@@ -73,7 +73,6 @@ Tvbs優選台,https://www.youtube.com/watch?v=WAUECPu9EOw
 Geographic,https://www.youtube.com/watch?v=MiQe9ob9aDc?si=vIdSN85RV4U-vMok
 Tom&Jerry,https://www.youtube.com/watch?v=rEKifG2XUZg?feature=shared
 
-
 油管新聞台,#genre#
 三立iNEWS,https://www.youtube.com/watch?v=pF507BLtbqU
 寰宇新聞台,https://www.youtube.com/watch?v=Ej3LQM_lTEw
@@ -171,8 +170,8 @@ TV5 News,https://www.youtube.com/watch?v=1JZvmmSRk-0
 華視公眾安全資訊觀測站,https://www.youtube.com/watch?v=meHTKm4XBS8
 東森新聞 51 頻道 24 小時直播,https://www.youtube.com/watch?v=V1p33hqPrUk
 東森綜合2台頻道 24 小時直播,https://www.youtube.com/watch?v=cimbpAZUjzw
-
-
+佛光山人間衛視,https://www.youtube.com/watch?v=SolM3pZkGYM
+Kurzgesagt – In a Nutshell,https://www.youtube.com/@kurzgesagt/streams'''
 
 YOUTUBE_CLASSES = [
     {'type_id': '4K', 'type_name': '4K'},
