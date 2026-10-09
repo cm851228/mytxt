@@ -26,116 +26,152 @@ DEFAULT_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 DEFAULT_0YTB_JSON = {'recommend': 'LIST:Michael Jackson Vevo cinematic story official music video,Vevo official music video story short film,Michael Jackson Thriller Beat It Smooth Criminal official video', 'class': [{'type_id': 'music', 'type_name': '🎵音乐MV'}, {'type_id': 'channel', 'type_name': '🆘频道主'}, {'type_id': 'short_drama', 'type_name': '短剧'}, {'type_id': 'tv_drama', 'type_name': '电视剧'}, {'type_id': 'movie', 'type_name': '电影'}, {'type_id': 'variety', 'type_name': '综艺'}, {'type_id': 'documentary', 'type_name': '纪录片'}, {'type_id': 'live24h', 'type_name': '24小时直播'}, {'type_id': 'anime', 'type_name': '动画片'}, {'type_id': 'sports', 'type_name': '体育赛事'}, {'type_id': 'fashion', 'type_name': '时尚潮流'}, {'type_id': 'hdr', 'type_name': '4K HDR'}, {'type_id': 'science', 'type_name': '科普宇宙'}, {'type_id': 'explain', 'type_name': '影视解说'}], 'filters': {'channel': [{'key': 'tid', 'name': '频道精选', 'value': [{'n': '全部', 'v': 'LIST:LT視界,王志安,柴静 Chai Jing,汀见,硅谷101,BBC News 中文,李肅Hi5第一頻道,崔永元,老高與小茉,自说自话的总裁,老肉雜談,滇西小哥,老饭骨,小高姐,Mr Beast,Mark Rober,不良林,悟空的日常'}, {'n': '柴静', 'v': '柴静 Chai Jing'}, {'n': '王志安', 'v': '王志安'}, {'n': '老高与小茉', 'v': '老高與小茉 @laogao'}, {'n': '自说自话的总裁', 'v': '自说自话的总裁'}, {'n': '李永乐老师', 'v': '李永樂老師 @TchLiyongle'}, {'n': '滇西小哥', 'v': '滇西小哥 @dianxixiaoge'}, {'n': '老饭骨', 'v': '老饭骨'}, {'n': '小高姐', 'v': '小高姐的 Magic Ingredients'}, {'n': 'Mr Beast', 'v': 'Mr Beast @MrBeast'}, {'n': 'Mark Rober', 'v': 'Mark Rober @MarkRober'}, {'n': '不良林', 'v': '不良林'}, {'n': '涌哥侃侃', 'v': '涌哥侃侃 @ygkkk'}]}], 'short_drama': [{'key': 'year', 'name': '年份', 'value': [{'n': '全部', 'v': ''}, {'n': '2025', 'v': '2025'}, {'n': '2024', 'v': '2024'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}]}, {'key': 'tid', 'name': '平台/地区', 'value': [{'n': '全部', 'v': '短剧'}, {'n': '抖音短剧', 'v': '抖音 短剧'}, {'n': '快手短剧', 'v': '快手 短剧'}, {'n': '大陆短剧', 'v': '大陆 短剧'}, {'n': '香港短剧', 'v': '香港 短剧'}, {'n': '台湾短剧', 'v': '台湾 短剧'}, {'n': '腾讯短剧', 'v': '腾讯 短剧'}, {'n': '爱奇艺短剧', 'v': '爱奇艺 短剧'}, {'n': '优酷短剧', 'v': '优酷 短剧'}, {'n': '芒果TV短剧', 'v': '芒果TV 短剧'}]}, {'key': 'topic', 'name': '题材/剧场', 'value': [{'n': '全部', 'v': ''}, {'n': '都市', 'v': '@Urbanshort-TV 都市 短剧'}, {'n': '爱情', 'v': '爱情 短剧'}, {'n': '复仇', 'v': '复仇 短剧'}, {'n': '穿越', 'v': '穿越 短剧'}, {'n': '喜剧', 'v': '喜剧 短剧'}, {'n': '奇幻', 'v': '奇幻 短剧'}, {'n': '九酱爱追剧', 'v': '@NineSauceDramaTV'}, {'n': '百万好剧场', 'v': '@1-pw5ox'}, {'n': '咖啡追剧', 'v': '@coffeedrama605'}, {'n': '斗罗短剧', 'v': '@DouluoDrama123 斗罗短剧'}, {'n': '嘟嘟剧场', 'v': '@DUDUJUCHANG'}, {'n': '牛牛短剧', 'v': '@niuniuduanju'}]}], 'tv_drama': [{'key': 'year', 'name': '年份', 'value': [{'n': '全部', 'v': ''}, {'n': '2025', 'v': '2025'}, {'n': '2024', 'v': '2024'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '经典', 'v': '经典 电视剧'}]}, {'key': 'tid', 'name': '地区/平台', 'value': [{'n': '全部', 'v': '电视剧 剧集'}, {'n': '华语热播', 'v': '华语热播电视剧官方频道'}, {'n': 'TVB', 'v': '@TVB 粤剧 剧集'}, {'n': '国剧放映社', 'v': '国剧放映社'}, {'n': '腾讯剧集', 'v': '腾讯 剧集'}, {'n': '爱奇艺剧集', 'v': '爱奇艺 剧集'}, {'n': '优酷剧集', 'v': '优酷 剧集'}, {'n': '芒果TV', 'v': '芒果TV 剧集'}, {'n': '美剧(Full)', 'v': '美国 Full Episode 完整剧集'}, {'n': 'Netflix', 'v': 'Netflix Full Episode 完整剧集'}, {'n': 'Disney+', 'v': 'disney Full Episode 完整剧集'}, {'n': 'HBO', 'v': 'hbo Full Episode 完整剧集'}, {'n': '韩剧', 'v': '韩国 剧集'}, {'n': '日剧', 'v': '日本 剧集'}]}], 'movie': [{'key': 'year', 'name': '年份', 'value': [{'n': '全部', 'v': ''}, {'n': '2025', 'v': '2025'}, {'n': '2024', 'v': '2024'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '经典', 'v': '经典 电影'}]}, {'key': 'tid', 'name': '地区/类型', 'value': [{'n': '全部', 'v': '电影 movie'}, {'n': '华语电影', 'v': '华语 电影 Full movie'}, {'n': '港台电影', 'v': '港台 经典电影'}, {'n': 'Netflix电影', 'v': 'netflix Full movie 电影'}, {'n': '好莱坞大片', 'v': '美国 Full movie 电影'}, {'n': 'Disney', 'v': 'disney Full movie 电影'}, {'n': '韩国电影', 'v': '韩国 Full movie 电影'}, {'n': '日本电影', 'v': '日本 Full movie 电影'}]}], 'variety': [{'key': 'tid', 'name': '节目类型', 'value': [{'n': '全部', 'v': '综艺节目'}, {'n': '大陆综艺', 'v': '大陆 综艺'}, {'n': '芒果综艺', 'v': '芒果 综艺'}, {'n': '腾讯综艺', 'v': '腾讯 综艺'}, {'n': '爱奇艺综艺', 'v': '爱奇艺 综艺'}, {'n': '港台综艺', 'v': '港台 综艺'}, {'n': '韩国综艺', 'v': '韩国 综艺'}, {'n': '小品相声', 'v': '春晚小品 相声 郭德纲 岳云鹏 开心麻花'}]}], 'documentary': [{'key': 'tid', 'name': '主题', 'value': [{'n': '全部', 'v': '纪录片 documentary'}, {'n': 'BBC纪录片', 'v': 'BBC documentary 纪录片'}, {'n': '国家地理', 'v': '国家地理 纪录片 National Geographic'}, {'n': 'CCTV纪录片', 'v': 'CCTV 纪录片'}, {'n': 'Netflix纪录片', 'v': 'netflix 纪录片'}, {'n': '自然地理', 'v': '地球 大自然 纪录片'}, {'n': '宇宙天文', 'v': '宇宙 天文 纪录片'}, {'n': '历史战争', 'v': '历史 战争 纪录片'}]}], 'music': [{'key': 'tid', 'name': '风格/类型', 'value': [{'n': '全部(VEVO剧情MV)', 'v': 'Michael Jackson Vevo cinematic story official music video short film'}, {'n': 'MJ电影级叙事MV', 'v': 'Michael Jackson Thriller Beat It Smooth Criminal Remember The Time Ghosts Official Video Short Film'}, {'n': 'VEVO剧情故事MV', 'v': 'Vevo cinematic story official music video mini movie'}, {'n': '欧美殿堂VEVO精选', 'v': 'Vevo most viewed official music video HD'}, {'n': '华语剧情MV', 'v': '周杰伦 剧情 电影感 官方完整版 MV'}, {'n': '热门MV', 'v': 'YouTube 点阅率最高 华语流行歌曲'}, {'n': '经典老歌', 'v': '80 90 经典怀旧音乐'}, {'n': '粤语经典', 'v': '粤语 经典音乐'}, {'n': '车载DJ', 'v': '车载慢摇 重低音 DJ 串烧'}]}, {'key': 'singer', 'name': '歌手精选', 'value': [{'n': '全部', 'v': ''}, {'n': '迈克尔·杰克逊', 'v': 'Michael Jackson Official Video Short Film Vevo'}, {'n': 'The Weeknd (VEVO)', 'v': 'The Weeknd Vevo Official Music Video'}, {'n': 'Lady Gaga (VEVO)', 'v': 'Lady Gaga Vevo Official Music Video story'}, {'n': 'Taylor Swift (VEVO)', 'v': 'Taylor Swift Vevo Official Music Video'}, {'n': 'Eminem (VEVO)', 'v': 'Eminem Vevo Official Music Video'}, {'n': '周杰伦', 'v': '周杰伦 官方完整版 MV'}, {'n': '刀郎', 'v': '刀郎 演唱会 音乐'}, {'n': '林俊杰', 'v': '林俊杰 剧情 MV'}, {'n': '邓紫棋', 'v': '邓紫棋 官方 MV'}, {'n': '张学友', 'v': '张学友 经典 MV'}]}], 'live24h': [{'key': 'tid', 'name': '直播分类', 'value': [{'n': '全部', 'v': 'live 新闻 直播'}, {'n': '中文新闻', 'v': '新闻 直播 live'}, {'n': '港台直播', 'v': '港台 直播 live'}, {'n': 'CNN', 'v': 'live CNN'}, {'n': 'BBC', 'v': 'live BBC'}, {'n': '体育直播', 'v': 'sports live 直播'}]}], 'anime': [{'key': 'tid', 'name': '类别/频道', 'value': [{'n': '全部', 'v': '国漫 动画 anime'}, {'n': '国漫3D', 'v': '国漫 3D 动画'}, {'n': '腾讯动漫', 'v': '@TencentVideoAnimation'}, {'n': '哔哩动漫', 'v': '@madebybilibili 哔哩动漫'}, {'n': '阅文动漫', 'v': '@yuewenanimation'}, {'n': '优酷动漫', 'v': '@youkuanimation 优酷动漫'}, {'n': '爱奇艺动漫', 'v': '@iQIYIAnime 爱奇艺动漫'}, {'n': '小猪佩奇', 'v': '@PeppaPigChineseOfficial 小猪佩奇 中文'}, {'n': '宝宝巴士', 'v': '宝宝巴士 儿童早教'}]}], 'sports': [{'key': 'tid', 'name': '赛事类型', 'value': [{'n': '全部', 'v': '体育 赛事 live sports'}, {'n': '足球', 'v': '足球 赛事 集锦 highlights'}, {'n': '篮球NBA', 'v': 'NBA 赛事 highlights 集锦'}, {'n': '极限运动', 'v': 'GoPro 极限运动 翼装飞行 Red Bull'}, {'n': '健身训练', 'v': '健身 运动 训练 workout'}]}], 'fashion': [{'key': 'tid', 'name': '分类', 'value': [{'n': '全部', 'v': 'T台走秀 fashion show'}, {'n': '时装秀', 'v': 'FASHION Runway 时装走秀'}, {'n': '街舞舞蹈', 'v': '街舞 机械舞 舞蹈 dance'}, {'n': '车模写生', 'v': '车模 模特 4K HDR'}]}], 'hdr': [{'key': 'tid', 'name': '画质精选', 'value': [{'n': '全部', 'v': '4K HDR 60fps 风景 演示片'}, {'n': '自然风光', 'v': '4K HDR 大自然 风景 nature'}, {'n': '城市漫步', 'v': '4K HDR city walk 城市街景'}, {'n': '动物世界', 'v': '4K HDR wildlife 动物世界'}, {'n': '放松冥想', 'v': '4K HDR 放松 冥想 睡眠 白噪音'}]}], 'science': [{'key': 'tid', 'name': '主题', 'value': [{'n': '全部', 'v': '科普 科技 宇宙'}, {'n': '黑洞与宇宙', 'v': '宇宙 黑洞 银河系 量子力学'}, {'n': '前沿科技/AI', 'v': '人工智能 AI 科技 technology'}, {'n': '航天探索', 'v': '航天 太空 火箭 Space'}]}], 'explain': [{'key': 'tid', 'name': '频道主', 'value': [{'n': '全部', 'v': '电影解说 故事解说'}, {'n': '宇哥侃故事', 'v': '@yuge 宇哥侃故事'}, {'n': '零度解说', 'v': '@lingdujieshuo 零度解说'}]}]}}
 
 DEFAULT_LIVE_TXT = r'''
-台湾直播,#genre#
-凤凰卫视资讯,https://www.youtube.com/watch?v=Ry--eMIjYLQ
-中天新闻台,https://www.youtube.com/watch?v=vr3XyVCR4T0
-TVBS新闻台,https://www.youtube.com/watch?v=2mCSYvcfhtc
-TVBS网络台,https://www.youtube.com/watch?v=m_dhMSvUCIc
-TVBS优选台,https://www.youtube.com/watch?v=WAUECPu9EOw
-寰宇新闻台,https://www.youtube.com/watch?v=6IquAgfvYmc
-寰宇新闻二,https://www.youtube.com/watch?v=Ej3LQM_lTEw
-寰宇台湾台,https://www.youtube.com/watch?v=w87VGpgd90U
-寰宇财经台,https://www.youtube.com/watch?v=yAUQQ0DhPxI
-东森新闻台,https://www.youtube.com/watch?v=V1p33hqPrUk
-东森直播台,https://www.youtube.com/watch?v=E0zhe2gkXBs
-东森财经台,https://www.youtube.com/watch?v=1I2iq41Akmo
-东森财经台,https://www.youtube.com/watch?v=AEBeWMM1atA
-东森综合台,https://www.youtube.com/watch?v=cimbpAZUjzw
-三立新闻台,https://www.youtube.com/watch?v=pF507BLtbqU
-三立財經台,https://www.youtube.com/watch?v=pF507BLtbqU
-公视新闻台,https://www.youtube.com/watch?v=quwqlazU-c8
-民视新闻台,https://www.youtube.com/watch?v=ylYJSBUgaMA
-华视新闻台,https://www.youtube.com/watch?v=wM0g8EoUZ_E
-中视新闻台,https://www.youtube.com/watch?v=TCnaIE_SAtM
-非凡新闻台,https://www.youtube.com/watch?v=wAUx3pywTt8
-镜电视新闻,https://www.youtube.com/watch?v=5n0y6b0Q25o
-倪珍播新闻,https://www.youtube.com/watch?v=RRybv1kEnCU
-凤凰资讯台,https://www.youtube.com/watch?v=fN9uYWCjQaw
-亚洲新闻台,https://www.youtube.com/watch?v=XWq5kBlakcQ
-半岛新闻台,https://www.youtube.com/watch?v=gCNeDWCI0vo
-新传媒娱乐,https://www.youtube.com/watch?v=ipqTkEH3mhE
-台湾大搜索,https://www.youtube.com/watch?v=Q0jusAya5s4
-经典综艺台,https://www.youtube.com/watch?v=ADDSmXoPDY8
-信大电视台,https://www.youtube.com/watch?v=OqcwT72qe0k
-大陆寻奇台,https://www.youtube.com/watch?v=LqXVZ_hK3Xs
-大爱电视台,https://www.youtube.com/watch?v=MIqUplvSRWA
-大爱电视二,https://www.youtube.com/watch?v=QDxRJP-wfeI
-太阳马戏团,https://www.youtube.com/watch?v=swgouFE-5e4
-台视新闻台,https://www.youtube.com/watch?v=xL0ch83RAK8
-三立新闻,https://www.youtube.com/watch?v=MV9mI0GChwo
-三立 iNEWS,https://www.youtube.com/watch?v=BlKaF8og0jo
-寰宇财经新闻,https://www.youtube.com/watch?v=WTRQiVWK1jY
-大爱电视2,https://www.youtube.com/watch?v=DTNkEm6jaqQ
-中视综艺台,https://www.youtube.com/watch?v=A98LJq71BZg
-TaiwanPlus,https://www.youtube.com/watch?v=Vrs-AeKZIEg
-TVBS选新闻,https://www.youtube.com/watch?v=o_-hSMgpAzs
-TVBS新闻,https://m.youtube.com/@TVBSNEWS01/streams/1
-东森新闻,https://m.youtube.com/@newsebc/streams/1
-民视新闻,https://m.youtube.com/@FTV_News/streams/1
-中天新闻,https://m.youtube.com/@中天電視CtiTv/streams/1
-三立财经,https://m.youtube.com/@setinews/live
-东森财经,https://m.youtube.com/@57ETFN/streams/2
-华视新闻,https://m.youtube.com/@CtsTw/streams/1
-中视新闻,https://m.youtube.com/@twctvnews/streams/1
+油管中文新闻,#genre#
+国际中文(亚洲),https://www.youtube.com/watch?v=vNVp6bxkL1c?si=qiXy7mSVmgdRPKF_
+国际中文(美洲),https://www.youtube.com/watch?v=PiSwAy-blvA?si=3m0KSrnyaN288rR2
+凤凰卫视资讯台,https://www.youtube.com/watch?v=fN9uYWCjQaw?si=W8mTdYN7WKoezH3C
+Entertainment,https://www.youtube.com/watch?v=ipqTkEH3mhE?si=0eg2o-dtmEdFAvSh
+CNA,https://www.youtube.com/watch?v=XWq5kBlakcQ
+新唐人亚太台,https://www.youtube.com/watch?v=Bhp_V7H5QoY?si=oothkc5aTLhiRYpT
+台湾Plus,https://www.youtube.com/watch?v=Vrs-AeKZIEg
+Berita Rtm,https://www.youtube.com/watch?v=HxgK1_xItSI?si=oQsgG4Vv2uFdpMM7
+AWANI,https://www.youtube.com/watch?v=mkVyNaGee8A
+TVBS新闻台,https://www.youtube.com/watch?v=m_dhMSvUCIc?si=6yZnLm3dbG9oCoCL
+民視新聞台,https://www.youtube.com/watch?v=ylYJSBUgaMA
+中天新聞台,https://www.youtube.com/watch?v=Nsce3gPzeFs?si=qGp9cijGVOgChT4f
+中視新聞台,https://www.youtube.com/watch?v=TCnaIE_SAtM
+公視新聞台,https://www.youtube.com/watch?v=quwqlazU-c8
+台視新聞台,https://www.youtube.com/watch?v=FrjnwmdrLR8?si=bteQZiDYMDv1KoFO
+寰宇台湾台,https://www.youtube.com/watch?v=w87VGpgd90U?si=cJRQUNtLbz69Sq7Z
+寰宇新聞台,https://www.youtube.com/watch?v=6IquAgfvYmc
+鏡新聞台,https://www.youtube.com/watch?v=5n0y6b0Q25o
+亞洲新聞台,https://www.youtube.com/watch?v=XWq5kBlakcQ
+东森新闻台,https://www.youtube.com/watch?v=E0zhe2gkXBs?si=hoofeYsZHkYhTobI
+东森财经台,https://www.youtube.com/watch?v=AEBeWMM1atA?si=ga4zTNb5Uwsa5aiX
+三立新聞台,https://www.youtube.com/watch?v=pF507BLtbqU
+三立iNEWS,https://www.youtube.com/watch?v=pF507BLtbqU
+Asianet News,https://www.youtube.com/watch?v=s0LLVQeMmtU
+Arirang TV,https://www.youtube.com/watch?v=CJVBX7KI5nU
+TVBS NEWS,https://www.youtube.com/watch?v=DjI_6Q_8mYE
+TV5 News,https://www.youtube.com/watch?v=1JZvmmSRk-0
+Tvbs選新聞,https://www.youtube.com/watch?v=o_-hSMgpAzs
+Tvbs新聞台,https://www.youtube.com/watch?v=2mCSYvcfhtc
+Tvbs網路台,https://www.youtube.com/watch?v=m_dhMSvUCIc
+Tvbs優選台,https://www.youtube.com/watch?v=WAUECPu9EOw
+寰宇財經台,https://www.youtube.com/watch?v=yAUQQ0DhPxI
+東森財經台,https://www.youtube.com/watch?v=AEBeWMM1atA
+東森綜合台,https://www.youtube.com/watch?v=cimbpAZUjzw
+三立新聞台,https://www.youtube.com/watch?v=pF507BLtbqU
+三立海外台,https://www.youtube.com/watch?v=hGJkDZDchYI
+華視新聞台,https://www.youtube.com/watch?v=wM0g8EoUZ_E
+非凡新聞台,https://www.youtube.com/watch?v=wAUx3pywTt8
+鏡電視新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
+倪珍播新聞,https://www.youtube.com/watch?v=RRybv1kEnCU
+佛光山人間衛視,https://www.youtube.com/watch?v=SolM3pZkGYM
+大愛一臺HD,https://www.youtube.com/watch?v=pM-1ytfQhos
+大愛二臺HD,https://www.youtube.com/watch?v=QDxRJP-wfeI
+Geographic,https://www.youtube.com/watch?v=MiQe9ob9aDc?si=vIdSN85RV4U-vMok
+Tom&Jerry,https://www.youtube.com/watch?v=rEKifG2XUZg?feature=shared
 
-海外直播,#genre#
-SEA POP,https://www.youtube.com/watch?v=RjZr3ksn_F8
-SEA POP,https://www.youtube.com/watch?v=mHfL7Fl3XW8
-DuaLipa,https://www.youtube.com/watch?v=Gt43Zqf3s0U
-TheKPOP,https://www.youtube.com/watch?v=JVocS7Yftw8
-SunWave,https://www.youtube.com/watch?v=RVk6c_SjOm8
-AlanWalker,https://www.youtube.com/watch?v=9l63T77YL2c
-RelaxingNature,https://www.youtube.com/watch?v=vdeJ3QY6w6g
-DiscoveryRelaxation,https://www.youtube.com/watch?v=6iQCt1X8jZU
-BBC Earth,https://www.youtube.com/watch?v=1LhlXiSc5NY
-BBC Earth Science,https://www.youtube.com/watch?v=KGZtDK8hZ60
-Discovery,https://www.youtube.com/watch?v=OnI-uUxJZuE
-Discovery,https://www.youtube.com/watch?v=ohKj2ma9mfM
-Love Nature,https://www.youtube.com/watch?v=Zns4k_dICzs
-Love Nature,https://www.youtube.com/watch?v=QhahoVG0BfI
-Earth Planet,https://www.youtube.com/watch?v=sYod9dCf5Cw
-Earth Planet,https://www.youtube.com/watch?v=QXeCPubARfo
-Nat Geo Kids,https://www.youtube.com/watch?v=q5xC6wv9Ut0
-Nat Geo Kids,https://www.youtube.com/watch?v=H-h657jXQyA
-Nat Geo Animals,https://www.youtube.com/watch?v=J4IYwyEUwrI
-Nat Geo Animals,https://www.youtube.com/watch?v=MiQe9ob9aDc
-National Geographic,https://www.youtube.com/watch?v=eVty8-fUGJY
-National Geographic,https://www.youtube.com/watch?v=lJOROUvD8sU
-Love Nature Predators,https://www.youtube.com/watch?v=YRIkyaX2in0
-Love Nature Predators,https://www.youtube.com/watch?v=7ByKk5NPsRw
-Ultimate Nature Documentaries,https://www.youtube.com/watch?v=i6DH-eLlLjo
-Ultimate Nature Documentaries,https://www.youtube.com/watch?v=JVXC4DrH6PA
-CCTV4 中文国际,https://www.youtube.com/watch?v=SdzewdkJa-o
-FRANCE 24,https://www.youtube.com/watch?v=l8PMl7tUDIE
-ANN新闻,https://www.youtube.com/watch?v=coYw-eVU0Ks
-TBS新闻,https://www.youtube.com/watch?v=ohI356mwBp8
-NHK WORLD,https://www.youtube.com/watch?v=f0lYkdA-Gtw
-ABC新闻,https://www.youtube.com/watch?v=-mvUkiILTqI
-ABC7纽约,https://www.youtube.com/watch?v=VrhYz4CL70I
-CBS新闻,https://www.youtube.com/watch?v=e_vEct0OMT4
-FOX,https://www.youtube.com/watch?v=YDfiTGGPYCk
-联合国,https://www.youtube.com/watch?v=wfAa1GiNdgM
-FRANCE24,https://www.youtube.com/watch?v=Ap-UM1O9RBU
-欧洲新闻,https://www.youtube.com/watch?v=pykpO5kQJ98
-Discovery,https://www.youtube.com/watch?v=Ucs_Kj6Yaog
-BBC News,https://www.youtube.com/@BBCNews/streams
-CNN,https://www.youtube.com/@CNN/streams
-Sky News,https://www.youtube.com/@SkyNews/streams
-Fox News,https://www.youtube.com/@FoxNews/streams
-Al Jazeera,https://www.youtube.com/@aljazeera/streams
-RT,https://www.youtube.com/@RT/streams
-CCTV,https://www.youtube.com/@CCTV/streams
-France 24,https://www.youtube.com/@France24/streams
-DW News,https://www.youtube.com/@dwnews/streams
-Bloomberg TV,https://www.youtube.com/@Bloomberg/streams
-CNBC,https://www.youtube.com/@CNBC/streams
-Sky Sports,https://www.youtube.com/@SkySports/streams
-NBA,https://www.youtube.com/@NBA/streams
-MLB,https://www.youtube.com/@MLB/streams
-NFL,https://www.youtube.com/@NFL/streams
-NASA,https://www.youtube.com/@NASA/streams
-SpaceX,https://www.youtube.com/@SpaceX/streams
-TED Talks,https://www.youtube.com/@TED/streams
+
+油管新聞台,#genre#
+三立iNEWS,https://www.youtube.com/watch?v=pF507BLtbqU
+寰宇新聞台,https://www.youtube.com/watch?v=Ej3LQM_lTEw
+東森財經新聞,https://www.youtube.com/watch?v=1I2iq41Akmo
+momo購物一台,https://www.youtube.com/watch?v=_pZQ1Lk0xMA
+momo購物二台,https://www.youtube.com/watch?v=xbNWkUyxQGM
+運通財經台,https://www.youtube.com/watch?v=uOZAb6tZHQA
+信大電視台,https://www.youtube.com/watch?v=3MakY86sYn8
+DW News,https://www.youtube.com/watch?v=LuKwFajn37U
+中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+Malaimurasu Tv 24X7,https://www.youtube.com/watch?v=BNhAKBSTdPo
+Asianet News,https://www.youtube.com/watch?v=s0LLVQeMmtU
+華視戲劇頻道,https://www.youtube.com/watch?v=6ZowCmLBcMY
+中天亞洲台,https://www.youtube.com/watch?v=vr3XyVCR4T0
+Al Jazeera Arabic,https://www.youtube.com/watch?v=N8xxOD0nT1Y
+JapaNews24,https://www.youtube.com/watch?v=YR41mfHyy5o
+THE K-POP,https://www.youtube.com/watch?v=JVocS7Yftw8
+民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
+東森購物台CH60,https://www.youtube.com/watch?v=2IGZjBPTPT8
+東森購物台CH46,https://www.youtube.com/watch?v=tUvQg2HgIbs
+LIVE NOW,https://www.youtube.com/watch?v=vNVp6bxkL1c
+Haberturk TV,https://www.youtube.com/watch?v=s4KIyYkwiM0
+鳳凰衛視資訊台,https://www.youtube.com/watch?v=fN9uYWCjQaw
+新唐人LIVE,https://www.youtube.com/watch?v=0t_5GNfgOjg
+ABC News,https://www.youtube.com/watch?v=exIvC0l8x-Y
+台視新聞台,https://www.youtube.com/watch?v=3GKanRdQs1s
+華視綜藝頻道,https://www.youtube.com/watch?v=0ePhPlTJbGo
+Astro AWANI,https://www.youtube.com/watch?v=mkVyNaGee8A
+中天電視,https://www.youtube.com/watch?v=vr3XyVCR4T0
+Tokyo Walk,https://www.youtube.com/watch?v=pcPhqxOUv8A
+大愛一臺HD,https://www.youtube.com/watch?v=pM-1ytfQhos
+TVBS NEWS 24小時直播,https://www.youtube.com/watch?v=m_dhMSvUCIc
+三立新聞台,https://www.youtube.com/watch?v=pF507BLtbqU
+GB News,https://www.youtube.com/watch?v=0V-bbTNFW6c
+中視經典綜藝,https://www.youtube.com/watch?v=ADDSmXoPDY8
+Sky News,https://www.youtube.com/watch?v=YDvsBbKfLPA
+India Today,https://www.youtube.com/watch?v=ea6ZW2ygmjQ
+Euronews English,https://www.youtube.com/watch?v=pykpO5kQJ98
+FRANCE 24 English,https://www.youtube.com/watch?v=HvZt-nh9sGg
+NBC News,https://www.youtube.com/watch?v=M_QwGymPYkM
+News18 India,https://www.youtube.com/watch?v=e2jDUP-BhF8
+寰宇新聞台灣台,https://www.youtube.com/watch?v=Ej3LQM_lTEw
+MIT台灣誌,https://www.youtube.com/watch?v=DxvKbRgUXc8
+公視 網路直播頻道,https://www.youtube.com/watch?v=C6gYqSHLRw4
+MediaoneTV Live,https://www.youtube.com/watch?v=-8d8-c0yvyU
+TBS NEWS,https://www.youtube.com/watch?v=0nx3A3eTE-E
+NewsTamil24x7,https://www.youtube.com/watch?v=_-C-j6am8Bo
+大愛二臺HD,https://www.youtube.com/watch?v=QDxRJP-wfeI
+東森購物台CH47,https://www.youtube.com/watch?v=wRdZ2t8Vd6k
+中天2台,https://www.youtube.com/watch?v=t18vNZZgL90
+Malayalam News,https://www.youtube.com/watch?v=1wECsnGZcfc
+Arirang TV,https://www.youtube.com/watch?v=CJVBX7KI5nU
+CNA LIVE,https://www.youtube.com/watch?v=XWq5kBlakcQ
+HTB北海道ニュース,https://www.youtube.com/watch?v=tvgbZZYS4Nk
+美好購物1台,https://www.youtube.com/watch?v=8TBJDKRcg6c
+美好購物2台,https://www.youtube.com/watch?v=MHoyggBaFW4
+國會頻道１,https://www.youtube.com/watch?v=UQnVkK1kcDI
+立法院會議,https://www.youtube.com/watch?v=UQnVkK1kcDI
+123 GO! Live,https://www.youtube.com/watch?v=nq9EDinO60o
+Al Jazeera English,https://www.youtube.com/watch?v=gCNeDWCI0vo
+Muse木棉花-闔家歡,https://www.youtube.com/watch?v=Lh6xiMlkRrg
+KBS News,https://www.youtube.com/watch?v=uUQU-5Yb3nc
+ABCテレビニュース,https://www.youtube.com/watch?v=Ili9_YMvYQs
+YOYO TV,https://www.youtube.com/watch?v=KbG88GiZmBI
+小猪佩奇,https://www.youtube.com/watch?v=E4gC5yqEvE4
+Talking Tom,https://www.youtube.com/watch?v=O_M5LuVSJJs
+TalkingFriendsTVMini,https://www.youtube.com/watch?v=giOagjhISF8
+Dave and Ava,https://www.youtube.com/watch?v=LuTWvxfEdLQ
+Tayo the Little Bus,https://www.youtube.com/watch?v=wgFPP9dRO-w
+Disney Junio,https://www.youtube.com/watch?v=k7iNXiw1zL4
+鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
+大陸尋奇,https://www.youtube.com/watch?v=LqXVZ_hK3Xs
+CRUX,https://www.youtube.com/watch?v=zrjHjAYiU48
+豬哥會社,https://www.youtube.com/watch?v=v8MUGB4vst8
+TIMES NOW,https://www.youtube.com/watch?v=KrWTRvWWof8
+GTV DRAMA 八大劇樂部,https://www.youtube.com/watch?v=qcGSEaOm6rk
+民視戲劇館,https://www.youtube.com/watch?v=65bIk97v35Q
+Lofi Girl,https://www.youtube.com/watch?v=X4VbdwhkE10
+TaiwanPlus,https://www.youtube.com/watch?v=Vrs-AeKZIEg
+earthTV,https://www.youtube.com/watch?v=r1K7DyQn3jg
+SBS Running Man,https://www.youtube.com/watch?v=lDcWeklf6DI
+飢餓遊戲,https://www.youtube.com/watch?v=6TsaEYaKueE
+TVBS NEWS,https://www.youtube.com/watch?v=DjI_6Q_8mYE
+TVBS選新聞,https://www.youtube.com/watch?v=
+Entertainment - Mediacorp,https://www.youtube.com/watch?v=ipqTkEH3mhE
+寰宇新聞財經台,https://www.youtube.com/watch?v=yAUQQ0DhPxI
+LiveNOW from FOX,https://www.youtube.com/watch?v=OY8mr_daW2w
+東森購物台CH34,https://www.youtube.com/watch?v=J3t9N0vciPI
+InquizeX,https://www.youtube.com/watch?v=xXomJLcxWI8
+8world,https://www.youtube.com/watch?v=qZsyZ03n340
+倪珍24小時播新聞,https://www.youtube.com/watch?v=RRybv1kEnCU
+TV5 News,https://www.youtube.com/watch?v=1JZvmmSRk-0
+公視新聞網,https://www.youtube.com/watch?v=quwqlazU-c8
+華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
+華視公眾安全資訊觀測站,https://www.youtube.com/watch?v=meHTKm4XBS8
+東森新聞 51 頻道 24 小時直播,https://www.youtube.com/watch?v=V1p33hqPrUk
+東森綜合2台頻道 24 小時直播,https://www.youtube.com/watch?v=cimbpAZUjzw
+佛光山人間衛視,https://www.youtube.com/watch?v=SolM3pZkGYM
 Kurzgesagt – In a Nutshell,https://www.youtube.com/@kurzgesagt/streams'''
 
 YOUTUBE_CLASSES = [
