@@ -27,8 +27,8 @@ DEFAULT_0YTB_JSON = {'recommend': 'LIST:Michael Jackson Vevo cinematic story off
 
 DEFAULT_LIVE_TXT = r'''
 台湾直播,#genre#
-CCTV中文国际亚洲,https://www.youtube.com/live/vNVp6bxkL1c?si=QRD8tCbUt7riCebi
-CCTV中文国际美洲,https://www.youtube.com/live/PiSwAy-blvA?si=Se5HVjlT5vpmNrub
+CCTV中文国际亚洲,https://www.youtube.com/watch?v=QRD8tCbUt7riCebi
+CCTV中文国际美洲,https://www.youtube.com/watch?v=Se5HVjlT5vpmNrub
 凤凰卫视资讯,https://www.youtube.com/watch?v=Ry--eMIjYLQ
 中天新闻台,https://www.youtube.com/watch?v=vr3XyVCR4T0
 TVBS新闻台,https://www.youtube.com/watch?v=2mCSYvcfhtc
