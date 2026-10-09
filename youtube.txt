@@ -14,8 +14,8 @@
             "type_name": "ZB新闻"
         },
 {
-            "type_id": "直播",
-            "type_name": "24小时直播"
+            "type_id": "ZB直播",
+            "type_name": "ZB24小时直播"
         },
 {
             "type_id": "PL@tvbanywhere",
