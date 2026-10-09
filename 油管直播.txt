@@ -1,11 +1,7 @@
 台湾直播,#genre#
-CCTV中文国际亚洲,https://www.youtube.com/live/vNVp6bxkL1c?si=QRD8tCbUt7riCebi
-CCTV中文国际美洲,https://www.youtube.com/live/PiSwAy-blvA?si=Se5HVjlT5vpmNrub
-凤凰卫视资讯,https://www.youtube.com/watch?v=HFib76ySpbU
-凤凰卫视资讯台,https://www.youtube.com/watch?v=LNux6O0Fj6A
-凤凰资讯台,https://www.youtube.com/watch?v=fN9uYWCjQaw
+国际中文(亚洲),https://www.youtube.com/watch?v=vNVp6bxkL1c?si=qiXy7mSVmgdRPKF_
+国际中文(美洲),https://www.youtube.com/watch?v=PiSwAy-blvA?si=3m0KSrnyaN288rR2
 中天新闻台,https://www.youtube.com/watch?v=vr3XyVCR4T0
-TaiwanPlus,https://www.youtube.com/watch?v=Vrs-AeKZIEg
 TVBS选新闻,https://www.youtube.com/watch?v=o_-hSMgpAzs
 TVBS新闻台,https://www.youtube.com/watch?v=2mCSYvcfhtc
 TVBS网络台,https://www.youtube.com/watch?v=m_dhMSvUCIc
