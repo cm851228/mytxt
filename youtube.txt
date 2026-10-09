@@ -62,6 +62,10 @@
             "type_name": "ZB纪录片"
         },
 {
+            "type_id": "ZB体育",
+            "type_name": "ZB体育"
+        }
+{
             "type_id": "PL动画片",
             "type_name": "PL动画片"
         },
@@ -88,11 +92,8 @@
 {
             "type_id": "PL综艺",
             "type_name": "PL综艺"
-        },
-{
-            "type_id": "PL体育",
-            "type_name": "PL体育"
         }
+
 
 
     ],
@@ -2801,7 +2802,7 @@
                 ]
             }
         ],
-        "体育": [
+        "ZB体育": [
 {
         "key": "time",
         "name": "年份",
